@@ -1,6 +1,10 @@
 import React, {useState} from "react";
 import styled from "styled-components";
 
+
+// This is JY's code. 
+
+
 const Wrapper = styled.div`
     background-color: #f5f5f5;
     height: 100vh;
@@ -31,15 +35,6 @@ const Introduce = styled.div`
 const SchoolLogo = styled.img`
     width: 1000px;
     height: 280px;
-`;
-
-const Button = styled.button`
-    color: lightslategrey;
-    width: 200px;
-    height: 80px;
-    font-size: 30px;
-    border-radius: 20px;
-    border: 10px solid;
 `;
 
 function PageOne(){
